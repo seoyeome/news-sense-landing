@@ -54,7 +54,7 @@ const TeamSection = () => {
       role: "Designer",
       description: "사용자 인터페이스 및 경험 디자인",
       color: "from-secondary-purple to-primary",
-      avatar: "👩‍💼"
+      avatar: "👩‍🎨"
     },
     {
       name: "이은경",

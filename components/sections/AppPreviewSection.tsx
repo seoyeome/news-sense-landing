@@ -37,14 +37,14 @@ const AppPreviewSection = () => {
     },
     {
       image: '/app-summary1.png',
-      title: 'AI 첨삭',
-      description: '작성한 요약문에 대한 즉각적인 AI 피드백',
-      badge: '피드백'
+      title: '뉴스 요약',
+      description: '뉴스를 직접 요약하면서 판단하는 습관 향상',
+      badge: '요약'
     },
     {
       image: '/app-summary2.png',
-      title: '문장 분석',
-      description: '사실/의견 구분 및 상세 분석 제공',
+      title: 'AI 첨삭',
+      description: '작성한 요약문에 대한 즉각적인 AI 피드백',
       badge: '분석'
     }
   ];
