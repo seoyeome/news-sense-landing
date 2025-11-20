@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Github, Mail, ExternalLink, Heart } from 'lucide-react';
+import Image from 'next/image';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,11 +19,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white text-xl font-bold">NS</span>
-              </div>
-              <span className="text-2xl font-bold">NewsSense</span>
+            <div className="mb-4">
+              <Image
+                src="/logo.png"
+                alt="NewsSense Logo"
+                width={180}
+                height={40}
+                className="h-10 w-auto"
+              />
             </div>
             <p className="text-neutral-400 mb-6 leading-relaxed max-w-md">
               AI 기반 뉴스 문해력 교육 플랫폼으로<br />

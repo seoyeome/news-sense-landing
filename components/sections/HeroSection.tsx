@@ -78,7 +78,7 @@ const HeroSection = () => {
               transition={{ delay: 0.4 }}
               className="text-lg sm:text-xl text-neutral-600 mb-8 leading-relaxed"
             >
-              AI가 제공하는 즉각적인 피드백으로<br className="hidden sm:block" />
+              AI가 제공하는 즉각적인 피드백으로 <br className="hidden sm:block" />
               사실과 의견을 구분하는 <strong className="text-primary">생각의 힘</strong>을 키워보세요
             </motion.p>
 

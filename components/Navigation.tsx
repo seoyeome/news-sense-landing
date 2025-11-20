@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,13 +36,15 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform">
-              <span className="text-white text-xl font-bold">NS</span>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-light bg-clip-text text-transparent">
-              NewsSense
-            </span>
+          <a href="#" className="flex items-center group">
+            <Image
+              src="/logo.png"
+              alt="NewsSense Logo"
+              width={180}
+              height={40}
+              className="h-10 w-auto transform group-hover:scale-105 transition-transform"
+              priority
+            />
           </a>
 
           {/* Desktop Navigation */}
