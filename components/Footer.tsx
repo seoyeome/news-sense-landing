@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
 
           {/* Resources */}
-          <div>
+          {/* <div>
             <h3 className="text-lg font-bold mb-4">Resources</h3>
             <ul className="space-y-3">
               <li>
@@ -96,7 +96,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-primary to-primary-light rounded-2xl p-8 md:p-12 text-center mb-12">
