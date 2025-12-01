@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, Mail, ExternalLink, Heart } from 'lucide-react';
+import { Github, Mail, Heart } from 'lucide-react';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -95,8 +95,8 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
-        </div> */}
+          </div> */}
+        </div>
 
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-primary to-primary-light rounded-2xl p-8 md:p-12 text-center mb-12">
